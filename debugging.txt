@@ -1,0 +1,62 @@
+Debugging
+
+What is Debugging?
+    Debugging is the process of finding and fixing errors/bugs 
+in your source code.
+    A bug is a glitch in software that prevents a program from 
+achieving the desired output (or being executed properly).
+
+Types of Bugs
+1. Syntax errors - These bugs violate the syntax rules of the
+language. e.g. spelling errors, passing arguments where there 
+are no arguments needed. They occur during the buildtime. 
+Normally include misuse of functions, variables, or parameters.
+These are normally underlined by the Intergrated Development 
+Environment (IDE).
+
+2. Logic errors - These are errors that occur when the process 
+of solving the task at hand is not done properly.e.g an infinite
+loop. The program works without errors but does not produce the 
+expected results.
+
+3. Design bugs - These are errors that originate in the design 
+phase causing the program to do what it was designed to do but 
+not the right thing to do. The equivalent of an architectural 
+flaw affecting the building of a structure. It can be a mistake 
+or malicious.
+
+4. Runtime bugs - These occur when the application tries to perform
+an operation that is not allowed. These are normally discovered
+at the point of running the script or the program. e.g when you 
+divide a number by zero, any calculation with a string.
+
+Debugging vs Testing
+    We debug to fix errors and test to look for vulnerabilities and 
+make it better.
+
+Debugging Cycle
+Step 1 - Writing the code (coding).
+Step 2 - Check if it's working.
+Step 3 - If it's not working, you then debug.
+Step 4 - If it's working, then you're done and you go back to step 1.
+
+Bug Seeking Cycle
+Step 1 - Coding.
+Step 2 - Trying to break the code (testing).
+Step 3 - If you suceed in breaking it, then you need to debug.
+Step 4 - If you fail to break it, then you go back to step 1.
+
+Tips/Principles for Debugging
+1. Catch your bugs as early as possible.
+- Only have one bug at a time.
+- Test early and test often.
+2. If a bug is not caught early, it gets harder to find because the 
+details are not in your mind and you have a larger search space.
+3. Pay attention to what you are writing or changing to find the bug.
+4. Always work in small chunks of code.
+5. If you're using github, always make small commits as opposed to 
+large ones.
+heroku
+
+Assignment: Commit your python class to the repository on github.
+Name repository 'pythontrack'.
