@@ -60,3 +60,14 @@ heroku
 
 Assignment: Commit your python class to the repository on github.
 Name repository 'pythontrack'.
+
+Steps of Debugging
+Step 1 - Plan your attack.
+Step 2 - Back up your files.(version control/ github to keep track
+of changes in my software)
+Step 3 - Isolate the errornous block of code. Maybe by commenting 
+it out.
+Step 4 - Find the error. (the line(s) of code with the error)
+Step 5 - Fix the error. Don't patch it.
+Step 6 - Test the fix.
+Step 7 - Look for similar bugs.
