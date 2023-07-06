@@ -71,3 +71,50 @@ Step 4 - Find the error. (the line(s) of code with the error)
 Step 5 - Fix the error. Don't patch it.
 Step 6 - Test the fix.
 Step 7 - Look for similar bugs.
+
+Other steps and strategies.
+
+1. Reproducibility. The first step in being able to remove a 
+bug is to be able to reproduce it. You need to understand what 
+the cause and effect before you change the code.
+
+2. Reduction. Finding the smallest or simplest test that exhibits 
+the bug. Reduce the search space because bugs are not random.
+
+3. Deduction. Understanding what the program is doing. Knowing 
+the difference between the working input and non-working input.
+
+4. Pair programming. Someone else may be able to see wrong 
+assumptions or mistakes you may have made. Explaining code 
+to others helps you to understand more what you are doing 
+with the code.
+
+5. Leveraging experience from others. Seeking solutions from 
+more experienced programmers.
+
+Preventive Measures.
+=> Write clean and easy to read code. Don't repeat yourself 
+/writing dry code and indent your code.
+=> Write comments. It helps you figure out what your code is 
+supposed to be doing.(part by part)
+=> Make one change at a time. 
+=> Test your code.
+    1. Unit test. Test functional blocks of your code.
+    2. Integration test. Test the interaction of those blocks.
+    3. Test for valid and invalid data.
+=> Defensive programming. You add error checking code and throwing 
+exceptions.
+=> Prioritizing which features can be implemented.
+=> Incubating. Take a break if things are tough.
+=> Brainstorm. Have brainstorming sessions.
+
+Debugging tools.
+1. Break points. They help you to see which part of the code 
+is carrying the bug. 
+2. Linting/Lints. 
+3. Print statement.
+
+Assignment: Research the other debugging tools.
+Use a tool of choice and present tomorrow.
+
+It is useful to use a print statement.

@@ -1,5 +1,5 @@
 '''
-A loop is a mechanism or statement that helps us to
+A loop is a statement that helps us to
 ask the computer to perform tasks repeatedly.
 We use a for loop.
 Item (any variable name) represents a value at a 
@@ -12,6 +12,7 @@ def my_count():
         print (item)
 
 my_count()
+
 '''
 Trying to access list elements using a loop.
 '''
