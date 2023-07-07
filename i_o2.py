@@ -7,31 +7,31 @@ def paye(name,sal):
         net = sal - tax
         print("***********************************")
         print("Dear ", name)
+        print("A ", age, "year old")
         print("A ", job)
         print("In ", location)
-        print(age, "years of age.")
         print("Your tax payable is ", tax)
         print("And your take-home salary is ", net)
         print("...................................")
     else:
         print("***********************************")
-        print("Dear: ", name)
-        print("A ", job)
+        print("Dear ", name)
+        print("A ", age, "year old")
+        print(job)
         print("In ", location)
-        print(age, "years of age.")
         print("Your salary is non-taxable.")
         print("...................................")
     print('Thank you!')
 
-name = raw_input("Please enter your name: ")
-age = raw_input("Please enter your age: ")
-location = raw_input("Please enter your location: ")
-job = raw_input("Please enter your occupation: ")
-sal = input("Please input your salary here: ")
+name = input("Please enter your name: ")
+age = input("Please enter your age: ")
+location = input("Please enter your location: ")
+job = input("Please enter your occupation: ")
+sal = int(input("Please input your salary here: "))
 
 paye(name,sal)
 
 '''
 Assignment: Modify this code to capture someone's location, 
-age, and occupation, date of birth.
+age, and occupation.
 '''

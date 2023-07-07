@@ -15,7 +15,7 @@ def example1():
         # We increment num1 or else the loop will be endless.
         num1 += 1
 
-example1()
+#example1()
 
 '''
 The break statement.
@@ -28,9 +28,9 @@ def example2():
         print(num1)
         if num1 == 7:
             break
-        num1 =+ 1
+        num1 += 1
 
-example2()
+#example2()
 
 '''
 The continue statement.
@@ -46,7 +46,7 @@ def example3():
             continue
         print(num1)
 
-example3()
+#example3()
 
 '''
 The else statement.
@@ -61,7 +61,7 @@ def example4():
     else:
         print("num1 is no longer less than or equal to 10")
 
-example4()
+#example4()
 
 # Source:https://www.w3schools.com/python/python_while_loops.asp
 
@@ -88,19 +88,19 @@ This pair of functions is of a smaller range of 10.
 '''
 def even():
     num1 = 0
-    while num1 <= 10:
-        print(num1)
-        # A repeated increment of 2 on 0 ensures even number output.
-        num1 += 2
+    while num1 < 10:
+        num1 += 1
+        if num1 % 2 == 0:
+            print(num1)
 
 #even()
 
 def odd():
-    num1 = 1
-    while num1 <= 10:
-        print(num1)
-        # A repeated increment of 2 on 1 ensures odd number output.
-        num1 += 2
+    num1 = 0
+    while num1 < 10:
+        num1 += 1
+        if num1 % 2 == 1:
+            print(num1)
 
 #odd()
 
@@ -108,19 +108,19 @@ def odd():
 This other pair of functions is of range of 100 in tens.
 '''
 def even():
-    num1 = 10
-    while num1 <= 100:
-        print(num1)
-        # A repeated increment of 10 on 10 ensures even number output.
+    num1 = 0
+    while num1 < 100:
         num1 += 10
+        if num1 % 2 == 0:
+            print(num1)
 
 #even()
 
 def odd():
-    num1 = 5
-    while num1 <= 100:
-        print(num1)
-        # A repeated increment of 10 on 5 ensures odd number output.
+    num1 = 1
+    while num1 < 100:
         num1 += 10
+        if num1 % 2 == 1:
+            print(num1)
 
 #odd()
